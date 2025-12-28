@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alimi Aisha Abolaji | Medical Research & AI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="opp.css">
+</head>
+<body>
+    <div class="bg"></div>
+
+    <!-- Desktop Top Navigation -->
+    <nav class="top-nav">
+        <h1>Alimi Aisha Abolaji</h1>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#cv-section">CV</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="research-links-mobile">
+            <a href="https://www.researchgate.net/profile/Alimi-Aisha" target="_blank" title="ResearchGate"><i class="fab fa-researchgate"></i></a>
+            <a href="https://www.linkedin.com/in/alimi-aisha-2a7024334" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </nav>
+
+    <!-- Mobile Bottom Navigation Bar -->
+    <nav class="bottom-nav">
+        <a href="#home" class="nav-item active">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+        </a>
+        <a href="#about" class="nav-item">
+            <i class="fas fa-user"></i>
+            <span>About</span>
+        </a>
+        <a href="#research" class="nav-item">
+            <i class="fas fa-microscope"></i>
+            <span>Research</span>
+        </a>
+        <a href="#cv-section" class="nav-item">
+            <i class="fas fa-file-alt"></i>
+            <span>CV</span>
+        </a>
+        <a href="#contact" class="nav-item">
+            <i class="fas fa-envelope"></i>
+            <span>Contact</span>
+        </a>
+    </nav>
+
+    <section id="home">
+        <h2>
+            I am a 
+            <span class="typewriter" id="typewriter"></span>
+        </h2>
+        <p>Medicine and Surgery Student at the University of Lagos with a strong passion for medical research, computational biology, genomic data analysis, and innovative health technologies that bridge medicine and artificial intelligence.</p>
+        <p>I am dedicated to advancing medicine through interdisciplinary approaches, combining clinical research Knowledge with cutting-edge tools in machine learning and bioinformatics to tackle real-world healthcare challenges.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-carousel">
+            <div class="carousel-track" id="carouselTrack">
+                <div class="carousel-item">
+                    <i class="fas fa-stethoscope"></i>
+                    <p>Medical Foundations</p>
+                    <span>Deep grounding in anatomy, physiology, pathology, pharmacology, and clinical skills. Experienced in patient history-taking, physical examinations, differential diagnosis, and evidence-based patient care.</span>
+                </div>
+                <div class="carousel-item">
+                    <i class="fas fa-microscope"></i>
+                    <p>Research Skills</p>
+                    <span>Proficient in systematic literature reviews, research protocol development, qualitative and quantitative data analysis, statistical interpretation, and scientific writing for publication.</span>
+                </div>
+                <div class="carousel-item">
+                    <i class="fas fa-brain"></i>
+                    <p>AI & Bioinformatics</p>
+                    <span>Strong grasp of machine learning fundamentals, neural networks, biomedical data processing, genomic analysis tools, and emerging AI applications in diagnostics, drug discovery, and personalized medicine.</span>
+                </div>
+                <div class="carousel-item">
+                    <i class="fas fa-users"></i>
+                    <p>Collaboration & Leadership</p>
+                    <span>Active participant in interdisciplinary hackathons, team-based research projects, peer mentorship programs, and international collaborations bridging medicine, technology, and global health initiatives.</span>
+                </div>
+            </div>
+            <div class="carousel-controls">
+                <button id="about-prev" aria-label="Previous slide">‹</button>
+                <button id="about-next" aria-label="Next slide">›</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="research">
+        <div class="section-header">
+            <h2>Research Focus</h2>
+        </div>
+        <div class="research-cards">
+            <div class="research-card">
+                <h3>Artificial Intelligence in Cancer Care (Ongoing)</h3>
+                <p>Systematic review exploring AI applications in oncology: diagnosis, prognosis, and personalized treatment selection.</p>
+                <p><strong>Skills:</strong> Data Analysis, Machine Learning, Literature Synthesis, Clinical Interpretation</p>
+                <div class="progress-bar"><div class="progress-fill" style="width:40%"></div></div>
+                <p><strong>Mentors:</strong> Habibullah Shitu Salih, Israel Adegoke</p>
+            </div>
+            <div class="research-card">
+                <h3>MPEG-G Dialogue Hackathon</h3>
+                <p>Domain expert in decoding dialogues, contributing medical insights through research to enhance genomic data interpretation.</p>
+                <p><strong>Skills:</strong> Interdisciplinary Collaboration, Problem Solving, Data Interpretation</p>
+                <div class="progress-bar"><div class="progress-fill" style="width:80%"></div></div>
+                <p><strong>Mentors:</strong> Hackathon Team Leads</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="cv-section">
+        <h2>My CV</h2>
+        <div class="cv-container">
+            <img src="assets/Screenshot 2025-12-27 220309.png" alt="CV Preview">
+            <a href="assets/ALIMI AISHA ABOLAJI.pdf" download class="cv-download">Download CV</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-container">
+            <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="d08cfcf3-bdda-471e-90f4-1f8c51c28102">
+                <input type="hidden" name="subject" value="New Contact Message from Portfolio Website">
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+
+                <div class="form-actions">
+                    <button type="submit">Send Message</button>
+                </div>
+            </form>
+            <div id="status-message" aria-live="polite"></div>
+        </div>
+    </section>
+
+    <footer>© 2025 Alimi Aisha Abolaji | Lagos, Nigeria</footer>
+
+    <!-- Floating Theme Toggle Button -->
+    <button class="floating-toggle" id="themeToggle" aria-label="Toggle light/dark mode">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <script src="opp.js"></script>
+</body>
+</html>
